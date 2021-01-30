@@ -1,7 +1,7 @@
 #This is a number guessing game
 import random
 secretNumber = random.randint(1,20)
-print('I am thinking of a number between 1 and 20.'')
+print('I am thinking of a number between 1 and 20.')
 
 #Ask the player to guess 6 times
 for guessesTaken in range(1,7):
@@ -16,9 +16,9 @@ for guessesTaken in range(1,7):
     else:
         break
 
-    if guess == secretNumber:
-        print('Good job! You guessed my number in ' + str(guessesTaken))
-            + ' guesses!')
-    else:
-        print('Sorry. you didn\'t guesss the correct number. The number was ' +
-            str(secretNumber))
+if guess == secretNumber:
+    print('Good job! You guessed my number in ' + str(guessesTaken)
+    + ' guesses!')
+else:
+    print('Sorry. you didn\'t guesss the correct number. The number was ' +
+    str(secretNumber))
