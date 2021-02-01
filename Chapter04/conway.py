@@ -63,4 +63,4 @@ while True: #Main loop
             else:
                 #Everything else dies or stays dead:
                 nextCells[x][y] = ' '
-time.sleep(1)
+    time.sleep(1)
