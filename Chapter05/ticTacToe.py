@@ -67,6 +67,7 @@ while GameWin != True:
     printBoard(theBoard)
     print('Turn for ' + turn + '. Move on which space?')
     move = input()
+    #allow the move if the location is blank
     if theBoard[move] == ' ':
         theBoard[move] = turn
     else:
